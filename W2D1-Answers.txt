@@ -1,5 +1,5 @@
 //: # W2D1 - Functions
-//: 
+//:
 //: ## Challenge 1
 
 greet("Cory")
@@ -9,13 +9,13 @@ greet("Danny")
 //: ## Challenge 2
 
 
-func pluralize(bicycleCount: Int) {
-    if bicycleCount == 1 {
-        print("There is \(bicycleCount) bicycle")
-    } else if (bicycleCount == 0) {
+func pluralize(count: Int) {
+    if count == 1 {
+        print("There is \(count) bicycle")
+    } else if (count == 0) {
         print("There are zero bicycles")
     } else {
-        print("There are \(bicycleCount) bicycles")
+        print("There are \(count) bicycles")
     }
 }
 
@@ -23,13 +23,13 @@ func pluralize(bicycleCount: Int) {
 //: ## Challenge 3
 
 
-func pluralizedString(bicycleCount: Int) -> String {
-    if bicycleCount == 1 {
-        return "There is \(bicycleCount) bicycle"
-    } else if (bicycleCount == 0) {
+func pluralizedString(count: Int) -> String {
+    if count == 1 {
+        return "There is \(count) bicycle"
+    } else if (count == 0) {
         return "There are zero bicycles"
     } else {
-        return "There are \(bicycleCount) bicycles"
+        return "There are \(count) bicycles"
     }
 }
 
@@ -47,4 +47,3 @@ func pluralizedWord(singular: String, pluralNoun: String, count: Int) -> String 
         return "There are \(count) \(pluralNoun)"
     }
 }
-
